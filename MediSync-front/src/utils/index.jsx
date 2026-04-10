@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const productionUrl = 'http://localhost:3000/api';
+const productionUrl = 'https://medisync-app-backend.onrender.com';
 
 export const customFetch = axios.create({
   baseURL: productionUrl,
